@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "name": "express-js",
+  "version": "1.0.0",
+  "main": "script.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/script.mjs",
+    "start": "node ./src/script.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "type": "module"
+}
